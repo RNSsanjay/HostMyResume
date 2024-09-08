@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0f09c4;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-info div {
+            margin: 10px 0;
+        }
+
+        .contact-info label {
+            font-weight: bold;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+        }
+
+        .back-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .back-button button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #0f09c4;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .back-button button:hover {
+            background-color: #a690f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Information</h1>
+        <div class="contact-info">
+            <div>
+                <label for="name">Name:</label>
+                <p id="name">Sanjay N</p>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <p id="email">sanjay.n.aiml.2022@snsct.org</p>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <p id="phone">+91 9361599018</p>
+            </div>
+            <div>
+                <label for="address">Currently Persuving College:</label>
+                <p id="address">SNS College of Technology , Coimbatore - 643 035</p>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <p id="message">Feel free to reach out to me via email or phone for any inquiries or opportunities.</p>
+            </div>
+        </div>
+        <div class="back-button">
+            <a href="index.html">
+                <button>Back to Resume</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

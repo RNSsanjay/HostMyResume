@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        nav {
+            background-color: #0f09c4;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 1s forwards;
+            border-radius: 10px;
+        }
+        nav a {
+            color: rgb(247, 245, 245);
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+        }
+        nav a:hover {
+            background-color: #a690f5;
+        }
+        /* General Styles */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+            animation: fadeIn 1s ease;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            animation: slideInUp 1s ease;
+        }
+        h1 {
+            color: #0f1db3;
+            text-shadow: 2px 2px 4px rgba(48, 27, 132, 0.1);
+            animation: bounce 1s ease;
+            font-size: 50px;
+        }
+        /* Project Card Styles */
+        .project-card {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            display: inline-block;
+            width: 400px;
+            vertical-align: top;
+            text-align: left;
+            animation: flipInX 1s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+        .project-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .project-description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .project-details {
+            color: #888;
+            font-style: italic;
+        }
+        .project-image {
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(-50px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        @keyframes bounce {
+            from {
+                transform: scale(0.8);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        @keyframes flipInX {
+            from {
+                transform: perspective(400px) rotateX(90deg);
+                opacity: 0;
+            }
+            40% {
+                transform: perspective(400px) rotateX(-10deg);
+            }
+            70% {
+                transform: perspective(400px) rotateX(10deg);
+            }
+            to {
+                transform: perspective(400px) rotateX(0deg);
+                opacity: 1;
+            }
+        }
+        a {
+              text-decoration: none; 
+              color: inherit; 
+        }
+    </style>
+</head>
+<body>
+     <nav>
+        <a href="index.html">About Me</a>
+        <a href="Personal Information.html">Personal Information</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="Internship.html">Internship</a>
+        <a href="Course Completed.html">Course Completed</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Certificates.html">Certificates</a>
+    </nav>
+    <div class="container">
+        <h1> My Certificates</h1>
+        <!-- Project Cards -->
+        <a href="IBM Course Completed.html"><div class="project-card">
+            <img src="https://th.bing.com/th/id/OIP.TBH61HtaIx5tQoisyWv_lwHaDO?rs=1&pid=ImgDetMain" alt="Course Completed" class="project-image">
+            <h2 class="project-title"> IBM Courses </h2>
+        </div></a>
+
+        <a href="infosis Spring.html"><div class="project-card">
+            <img src="https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/springboard-logo.png" alt="Course Completed" class="project-image">
+            <h2 class="project-title"> Infosis Courses </h2>
+        </div></a>
+
+       <a href="GL Courses.html"><div class="project-card">
+            <img src="https://th.bing.com/th/id/OIP.-MBR3PZL9cKIsv8JssvNGwHaDC?rs=1&pid=ImgDetMain" alt="Project Image" class="project-image">
+            <h2 class="project-title"> Great Learning Courses </h2>
+        </div></a> 
+
+        
+
+        <a href="Government events.html"><div class="project-card">
+            <img src="https://images.hindustantimes.com/rf/image_size_640x362/HT/p1/2013/11/02/Incoming/Pictures/1146770_Wallpaper2.jpg" alt="Project Image"  class="project-image">
+            <h2 class="project-title"> Government Certificates </h2>            
+        </div></a>
+
+        <a href="Other Events.html"><div class="project-card">
+            <img src="https://savvy.zipie.com/hubfs/191143_SavvyBlog_PrePlanning_PreviewRFU-1.jpg#keepProtocol" alt="Project Image" class="project-image">
+            <h2 class="project-title">Other Events</h2>
+        </div></a>
+    </div>
+</body>
+</html>
