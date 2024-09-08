@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #003366;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+
+nav a:hover {
+    background-color: #005b96;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 80%;
+    max-width: 1500px; /* Changed max-width to 1500px */
+    box-sizing: border-box;
+    position: relative;
+}
+
+h2 {
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #003366;
+    animation: fadeInUp 1s ease forwards; /* Added animation */
+}
+
+.container {
+    max-width: 1500px; /* Changed max-width to 1500px */
+    margin: 120px auto 20px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section.slide-up {
+    animation: slide-up 0.5s ease forwards;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.section.fadeIn {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.submenu a:hover {
+    background-color: #005b96;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+    }
+    nav a {
+        flex: 1;
+    }
+    .container {
+        margin-top: 200px;
+    }
+}
+
+.img {
+    width: 350px;
+    height: 450px;
+    border: 2px solid #003366; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    animation: scaleIn 1s forwards; /* Added animation */
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.text {
+    animation: slideInLeft 1s forwards; /* Added animation */
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+p {
+    text-align: justify;
+    margin: 50px;
+    padding: 0;
+}
+/*hkvhvvkc*/
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+h1 {
+    color: #333;
+    margin: 20px 0 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+nav {
+    background-color: #0f09c4;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 1s forwards;
+    border-radius: 10px;
+}
+nav a {
+    color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+nav a:hover {
+    background-color: #a690f5;
+}

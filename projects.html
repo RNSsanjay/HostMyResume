@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        nav {
+            background-color: #0f09c4;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 1s forwards;
+            border-radius: 10px;
+        }
+        nav a {
+            color: rgb(247, 245, 245);
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+        }
+        nav a:hover {
+            background-color: #a690f5;
+        }
+        /* General Styles */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+            animation: fadeIn 1s ease;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            animation: slideInUp 1s ease;
+        }
+        h1 {
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            animation: bounce 1s ease;
+        }
+        /* Project Card Styles */
+        .project-card {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            display: inline-block;
+            width: 400px;
+            vertical-align: top;
+            text-align: left;
+            animation: flipInX 1s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+        }
+        .project-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .project-description {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .project-details {
+            color: #888;
+            font-style: italic;
+        }
+        .project-image {
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(-50px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        @keyframes bounce {
+            from {
+                transform: scale(0.8);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        @keyframes flipInX {
+            from {
+                transform: perspective(400px) rotateX(90deg);
+                opacity: 0;
+            }
+            40% {
+                transform: perspective(400px) rotateX(-10deg);
+            }
+            70% {
+                transform: perspective(400px) rotateX(10deg);
+            }
+            to {
+                transform: perspective(400px) rotateX(0deg);
+                opacity: 1;
+            }
+        }
+        a {
+              text-decoration: none; 
+              color: inherit; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="Personal Information.html">Personal Information</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="Internship.html">Internship</a>
+        <a href="Course Completed.html">Course Completed</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Certificates.html">Certificates</a>
+    </nav>
+    <div class="container">
+        <h1>🚀 My Projects 🚀</h1>
+        <!-- Project Cards -->
+        <a href="project(1).html"><div class="project-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/011/863/378/non_2x/modern-technology-background-vector.jpg" alt="Project Image" class="project-image">
+            <h2 class="project-title">🎉 Have Eye 🎉</h2>
+            <p class="project-description">This Application is invented for the People who are  blind and  to Indentfy the Unknown Objects ...</p>
+            <div class="project-details">
+                <span>Team mates: 1.Sanjay N <br> 2.Shreya <br> 3.Vasanth <br> 4.Sharvan Kumar <br> 5.Surander</span><br>
+                <span>Semseste: First Semester [Implemenation of Design Thinking.]</span>
+            </div>
+        </div></a>
+
+       <a href="project(2).html"><div class="project-card">
+            <img src="https://i.ytimg.com/vi/FAwek1hV7ww/maxresdefault.jpg" alt="Project Image" class="project-image">
+            <h2 class="project-title">🤖 Gas Leakage Detector </h2>
+            <p class="project-description">This Project is Invented to solve the Problems Arised by the Gas Leakage ...</p>
+            <div class="project-details">
+                <span>Team mates: 1.Sanjay N <br> 2.Sanjai R <br> 3.Sanjay Kumar S <br> 4.Sanjvee</span><br>
+                <span>Semester: Second Semester [Mini Project - 1 ]</span>
+            </div>
+        </div></a> 
+
+        
+
+        <a href="project(4).html"><div class="project-card">
+            <img src="https://theabp.org.uk/wp-content/uploads/2023/10/Untitled-design.jpg" alt="Project Image" class="project-image">
+            <h2 class="project-title"> Stock Price Prediction </h2>
+            <p class="project-description">This Project is invented to Analyzing the Stock Market Value. Project is Built with the aim to Predict the Market price with the Accuracy of 50 % Percentage  (With the use of the Previous Year datas...) </p>
+            <div class="project-details">
+                <span>Team mates : 1.Sanjay N <br> 2.Vasanth <br> 3.Rosun Ram B G <br> 4.Val Murugan <br> 5.Surander Ram</span><br>
+                <span>Semester: Third Semester [Mini project -2 ]</span>
+            </div>
+        </div></a>
+
+        <a href="project(3).html"><div class="project-card">
+            <img src="https://theabp.org.uk/wp-content/uploads/2023/10/Untitled-design.jpg" alt="Project Image" class="project-image">
+            <h2 class="project-title">🎨 Video Virtusoo 🎨</h2>
+            <p class="project-description">This Project is invented to Indentfy the Objects in the Videos and Contents in them. Project is Built with the aim of to make the Work of Cyber Security Easyer (By Analyzing them...). </p>
+            <div class="project-details">
+                <span>Team mates : 1.Sanjay N <br> 2.Siddharth K <br> 3.Prajan G <br> 4. RosunRam B</span><br>
+                <span>Semester: Third Semester [Mini project -3 ]</span>
+            </div>
+        </div></a>
+    </div>
+</body>
+</html>

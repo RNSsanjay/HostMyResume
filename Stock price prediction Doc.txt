@@ -1,0 +1,280 @@
+TABLE OF CONTENTS
+	CHAPTER NO	TITLE	PAGE NO
+1 EMPATHY	7
+1.1 STOCK EXCHANGE	7
+1.2 MAJAOR PROBLEMS	9
+2 DEFINE	10
+2.1 INDIRECT VS DIRECT	10
+INVESTMENT
+2.2 PARTICIPATION BY
+	INCOME AND WEALTH	10
+2.3 PARTICIPATION BY RACE AND	11
+GENDER
+2.4 STOCK MARKET PARTICIPATION	11
+2.5 DATA SET	12
+3 IDEATE	13
+3.1 EXPLORATORY DATA ANALYSIS	13
+3.2 SOFTWARE &LIBRARIES	14
+4 PROTOTYPE	15
+4.1 PYT110N3 SOFTWARE	15
+4.2 PANDAS	15
+4.3 NUMPY	16
+4.4 SK LEARN	16
+4.5 MATI)LOTLIB	16
+3
+4.6 TENSORFLOW KERAS	17
+4.7 ARCHITECTURAL DIAGRAM	17
+4.8 LSTM MODEL	18
+4.9 PREDICTION GRAPH	18
+5 TESTING
+19
+6
+CONCLUSION
+	7	24
+FUTURE WORKS
+	REFERENCE	25
+26
+LIST OF FIGURES
+	TITLE	PAGE.NO
+3.1	EXPLORATORY DATA ANALYSIS	13
+	PANDAS SOFTWARE	15
+4.7
+ARCHITECTURAL DIAGRAM
+17
+4.8
+LSTM MODEL
+18
+4.9
+PREDICTION GRAPH
+18
+
+People invest their savings in various forms of investments, most commonly Gold,
+Land, Bond, and Stocks. In the digital era every individual is using smartphone and
+Il)any exchanges to buy and sell stocks but the prediction is a major task in the stock Inarket.With the help of latest technologies, the value of stocks can be predicted with high accuracy
+  Stocks, also known as equity, are a security representing a holder's proportionate ownership of a corporation. Stockholders are therefore entitled to that portion of the comoration's assets and earnings. Companies issue stock in order to raise capital to finance future growth.
+  An Al is built to predict the trend of future stocks with the application of deep learning concept. The dataset is collected from yahoo finance using API. For better accuracy, the data is collected from the year 2012.Finally, by building a LSTM model, we put the data into it and predict the stock of particular ticker
+Cll  I
+ION
+  stock illatket. equity nutlk-'t, or share tnarket LS the  ot• buyers and sellers of stocks (also called share€). \vhtcll represent ownerslltp clatms on these tnay Include secunues listed on a public stock exchange. as weii as stock that is only traded privately. such as shares of private companies which are sold to investors through equity crowdfunding platforrns. Investnnent IS usually made with an investlnent strategy in mind.
+  total tnarket capitalization of all publicly traded securities worldwide rose USS2.5 trillion in 1980 to USS93.7 trillion at the end of 2020. As 012016, there are stock exchanges in the world. Of these, there are 16 exchanges with a market capitalization of Sl trillion or Inore, and they account for 87 0 0 of global market capitalization. Apart fronl the Australian Securities Exchange, these 1 6 exchanges are all in North America, Europe, or Asia. By country, the largest stock tuarkets as of January 2022 are in the United States of America (about 59.9 0/0), followed by Japan (about 6.2%)) and United Kingdom (about 3.9%).
+1.1 STOCK EXCHANGES
+  A stock exchange is an exchange (or bourse) where stockbrokers and traders can buy and sell shares (equity stock), bonds, and other securities. Many large companies have their stocks listed on a stock exchange. This makes the stock more liquid and thus more attractive to many investors. The exchange may also act as a guarantor of settlement. These and other stocks may also be traded "over the counter" (OTC), that is, through a dealer. Some large companies will have their stock listed on more than one exchange in different countries, so as to attract international investors.
+  Stock exchanges may also cover other types of securities, such as fixed-interest securities (bonds) or (less frequently) derivatives, which are more likely to be traded OTC. Trade in stock markets means the transfer (in exchange for money) of a stock or security from a seller to a buyer. This requires these two parties to agree on a price, Equities (stocks or shares) confer an ownership interest in a particular cotnpany
+  Panicipants in the stock market range fronl stnall individual stock investors to larger investors, who can be based anywhere in the world, and luay include banks. insurance companies, pension funds and hedge funds. Their buy or sell orders lilay be executed on their behalf by a stock exchange trader.
+Sonle exchanges are PIP, steal locations where transactions arc carried out on a
+trading floor, by a Illethod as open outcry. This Inethod is used in somc stock exchanges and eonunodities exchanges, and involves traders shouting bid and offer prices. Pl'he other type or stock exchange has a network of computers where trades are tnade electronically. An example of such an exchange is the NASDAQ.
+  \ potential buyer bids a specific price for a stock, and a potential seller asks a specific price for the satue stock. Buying or selling at the Market means you will accept any ask price or bid price for the stock. When the bid and ask prices match, a sale takes place, on a first-collie, first-served basis if there are multiple bidders at a oiven price.
+ The purpose of a stock exchange is to facilitate the exchange of securities between buyers and sellers, thus providing a Inarketplace. The exchanges provide real-time trading information on the listed securities, facilitating price discovery. The New York Stock Exchange (NYSE) is a physical exchange, with a hybrid market for placing orders electronically from any location as well as on the trading floor. Orders executed on the trading floor enter by way of exchange members and flow down to a floor broker, vvho submits the order electronically to the floor trading post for the Designated market maker ("DMM") for that stock to trade the order. The DMM's job is to maintain a two-sided market, making orders to buy and sell the security when there are no other buyers or sellers. If a bid-ask spread exists, no trade immediately takes place - in this case, the DMM may use their own resources (money or stock) to close the difference. Once a trade has been made, the details are reported on the "tape" and sent back to the brokerage firm, which then notifies the investor who placed the order. Computers play an important role, especially for program trading.
+  The NASDAQ is an electronic exchange, where all of the trading is done over a computer network. The process is like the New York Stock Exchange. One or more NASDAQ market makers will always provide a bid and ask the price at which they will always purchase or sell 'their' stock.
+  The Paris Bourse, now part of Euronext, is an order-driven, electronic stock exchange. It was automated in the late 1980s. Prior to the 1980s, it consisted of an open outcty exchange. Stockbrokers •met on the trading floor of the Palais Brongniart. In 1986, the CATS trading system was introduced, and the order matching system was fully autonnated.
+  People ti'ading stock will prefer to trade on the most popular exchange since this gives the largest ntllnber of potential counter parties (buyers for a seller, sellers for a buyer) and probably the best price. However, there have always been alternatives such as brokers trying to bring parties together to trade outside the exchange. S01ne third markets that were popular are Instinct, and later Island and Archipelago (the latter two have since been acquired by Nasdaq and NYSE, respectively). One
+8
+advantage is that this avoids the commissions of the exchange. However. it also has problems such as adverse selection. Financial regulators have probed dark pools.
+1.2 MAJOR PROBLEMS
+  As this stock market have been a important part of investment investors are facing many problems
+O The stock graphs are unpredictable
+O Beginners are facing difficulties to learn about the process of buying and selling stocks
+O Has a huge risk of money loss
+
+CHAPTER 2
+DEFINE
+2.1 INDIRECT VS. DIRECT INVESTMENT
+   Indirect investment involves owning shares indirectly, such as via a mutual fund or an exchange traded fund. Direct investment involves direct ownership of shares.
+   Direct ownership of stock by individuals rose slightly from 17.8% in 1992 to 17.9% in 2007, with the median value of these holdings rising from S 14,778 to
+$17,000. Indirect participation in the form of retirement accounts rose from 39.3% in 1992 to 52.6% in 2007, with the median value of these accounts more than doubling from $22,000 to $45,000 in that time. Rydqvist, Spizman, and Strebulaev attribute the differential growth in direct and indirect holdings to differences in the way each are taxed in the United States. Investments in pension funds and 40 Iks, the two most common vehicles of indirect participation, are taxed only when funds are withdrawn from the accounts. Conversely, the money used to directly purchase stock is subject to taxation as are any dividends or capital gains they generate for the holder. In this way, the current tax code incentivizes individuals to invest indirectly.
+2.2 PARTICIPATION BY INCOME AND WEALTH STRATA
+    Rates of participation and the value of holdings differ significantly across strata of income. In the bottom quintile of income, 5.5% of households directly own stock and 10.7% hold stocks indirectly in the form of retirement accounts. The top decile of income has a direct participation rate of 47.5% and an indirect participation rate in the form of retirement accounts of 89.6%. The median value of directly owned stock in the bottom quintile of income is $4,000 and is $78,600 in the top decile of income as of 2007. The median value of indirectly held stock in the form of retirement accounts for the same two groups in the same year is $6,300 and $214,800 respectively. Since the Great Recession of 2008 households in the bottom half of the income distribution have lessened their participation rate both directly and indirectly from 53.2% in 2007 to 48.80/0 in 2013, while over the same period households in the top decile of the incon1e distribution slightly increased participation 9 1 .70 0 to 92.1%. The mean value of direct and indirect holdings at the bott0111 half of the income distribution moved slightly downward fronl $53,800 in 2007 to in 2013. In the top decile, nnean value of all holdings fell from to in the stune time. The mean value of all stock holdings across the entire incotne distribution is valued at $269,900 as of 2013.
+10
+
+	2.3 PARTICIPATION m RACE 	GENDER
+    The racial cornposition of stock market ownership shows households headed by whites are nearly four and six times as likely to directly own stocks than households headed by blacks and Hispanics respectively. As of 201 1 the national rate of direct participation was 19.6%, for hite households the participation rate was 24.5%, for black households it was 6.4% and for Hispanic households it was 4.3%. Indirect participation in the of 401k ownership shows a silliilar pattern with a national participation rate of 42.1%, a rate of 46.4% for white households, 31.7% for black households. and 25.800 for Hispanic households. Households headed by man•ied couples patüicipated at rates above the national erages with 25.6% participating directly and 53.4% participating indirectly through a retirement account. 14.7% of households headed by men participated in the market directly and 33.40 0 owned stock through a retirement account. 12.6% of female-headed households directly owned stock and 28.7% stock indirectly.
+2.4 DETERMINANTS AND POSSIBLE EXPLANATIONS OF
+STOCK MARKET PARTICIPATION
+     In a 2003 paper by Vissing-Jorgensen attempts to explain disproportionate rates of participation along wealth and income groups as a function of fixed costs associated with investing. Her research concludes that a fixed cost of $200 per year is sufficient to explain why nearly half of all U.S. households do not participate in the market. Participation rates have been shown to strongly con-elate with education levels, promoting the hypothesis that information and transaction costs of market participation are better absorbed by more educated households. Behavioural economists Harrison Hong, Jeffrey Kubik and Jeremy Stein suggest that sociability and participation rates of cornmunities have a statistically significant impact on an individual's decision to participate in the market. Their research indicates that social individuals living in states with higher-than-average participation rates are 5% more likely to participate than individuals that do not share those characteristics. This phenomenon also explained in cost terms. Knowledge of market functioning diffuses through communities and consequently lowers transaction costs associated with investing.
+2.5 1) r SEPIA 	DESCRI
+VariablesDescriptionDateDate for stock in each daysOpenOpen price of the stock in that dateHighHigh price of the stock in that dateLowLow price of the stock in that dateCloseClose price of the stock in that dateVolumeVolume of the stock in that dateAdj CloseAdjacent Close price of the stock in that date
+	Date	Open	High	Low	CloseVolumeAdj Close0 6/29/2010 19 000000 25 00 17 540001 23 889999 1876630023 8899991 						 25 790001 30 	 23 299999 23 830000 1718710023 8300002	7/1/2010 25 000000 25 92 20 270000 21 959999821880021 959999513980019 2000013 7/2/2010 23 000000 23 IO 18 709999 19
+	6866900	16 110001
+4 7/6/2010 20 000000 20 00 15 830000 16 110001
+CHAPTER 3
+SYSTEM REVIEW
+ These problems can be resolved using a developing a app to predict the stock price An Al is built to predict the trend of future stocks with the application of deep learning concept.
+ The dataset is collected froln yahoo finance using API. For better accuracy, the data is collected from the year 2012.
+  Finally, by building a LSTM model, we put the data into it and predict the stock of particular ticker.
+3.1 EXPLORATORY DATA ANALYSIS
+   Explorat01Y Data Analysis (EDA) is an approach to analyze the data using visual techniques. It is used to discover trends, patterns, or to check assumptions with the help of statistical stilnmaty and graphical representations.
+
+3.1 EXPLORATORY DATA ANALYSIS
+3.2 & LIBR \RIES
+By using python programnning language and its libraries software is developed
+
+	Python3 software	Programming language
+
+CHAPTER 4
+PROJECT IMPLEMENTATION
+4.1 PYTHON3 ARE
+ Pyhon is a high-level. 2eneral-purpose procrammiæ laneuaee. Its de-sten philosophy- emphasizes code readability the use of significant indentation 
+ Pühon is a multi-paradizm procramminc language. Object-oriented proeratntnine and structured prozramminE are t;ally supported. and many of their features suppoü functional prozramminz and aspect-oriented procratnmine (includine metaprozrammin= and metaobjects). Many other paradignls are supported via extensions. includinz desizn by contract and locie procralnmine.
+	4.2 	A s
+  Pandas is a software librarc xvritten for the Pvthon procramnline language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series. It is free software released under the three-clause BSD license. The name is derived from the term "panel data", an econometrics term for data sets that include observations over tnultiple tinie periods for the same indftfduals. Its name is a play on the phrase "Python data analysis" itseltl IVes NfcKinney started building what would becorne pandas at AQR Capital while he was a researcher there from 2007 to 2010.
+
+pandas
+4.2 PAND SOFTW \lUi
+4.3 INtnnlh
+   Py is a library Cor the Python prograjnnning language, adding support for large. lilillti-ditnensional arrays and matrices, along with a large collection of high-level tnathernatical Illnctions to operate or, these an•ays. The ancestor of NutnPy, Nurneric, was originally created by Ji,n I-lugunin with contributions fronl several other developers. In 2005, Travis Oliphant created NumPy by incolporating features of the connpeting Nunlarray into Numeric, with extensive Inodifications. Niiinl)y is open-source software and has many contributors.
+
+4.4 SK LEARN
+   Scikit-learn (formerly scikits.learn and also known as sklearn) is a free software machine lemming library for the Python programming language. It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, /means and DBSCAN, and is designed to interoperate with the Python numerical and
+
+sponsored project.
+4.5 MATPLOTLIB
+   Matplotlib is a plotting libraty for the Python programming language and its numerical mathematics extension NumPy. It provides an objectoriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK. There is also a procedural "pylab" interface based on a state machine (like OpenGL), designed to closely resemble that of MATLAB, though its use is discouraged.131 SciPy makes use of Matplotlib.
+16
+
+4.6 KERAS
+  Tensor}:IoW is a free and  softwarc library for machine Icarning and artificial intelligence. It can bc u;cd a rangc of' but has a particular focus on training and infcrcrjcc of' dccp ncural
+  •Kera's is an open-source software library that a Python intcrfacc for artificial neural networks, Kera'% act:' a; an intcrfacc for the
+library.
+4.7 ARCHITECTURAL DIAGRAM
+
+FIG 4.7 ARCHITECTURAL DIAGRAM
+4.8 LSTM MODEL
+O Unique version of RNN with 4 layers
+0 Remembering information for longer periods of time is their default behavior
+O Made up of a 	cell, an input gate, an output gate and a forget gate
+
+FIG 4.8 LSTM MODEL
+4.9 PREDICTION GRAPH
+
+FIG 4.9 PREDICTION GRAPH
+IS
+CHAPTER 5 TESTING
+Epoch 3/50					0019
+Epoch 4/50
+6s 175ms/ step  loss:			-05 - val loss :34/34 [z									
+Epoch 5/50		 175ms/step - loss:5.3890e-05 val loss :e.eou
+Epoch 6/506s 185ms/step  loss:5.1661e-05 val loss:o.e06134/34 										
+Epoch 7/506s 170ms/step  loss:5.0241+05 val loss:o. ee5234/34 							
+Epoch 8/50	 173ms/step - loss:5.0674e-05- val loss :0.0081
+Epoch 9/50	 176ms/step	loss:4.87862-05 val loss :e. 006934/34 [									
+Epoch 10/50	 267ms/step - loss:a.8219e-05 val loss :0.0069	train, y_train, validation_data=(x_test,y_test), epochs=50, 	verbose-I)
+19s 212ms/step - loss: 0.0018 - val loss: 0.0053
+178ms/step  loss : 8.9337e-05 - val loss : e. 
+175
+150
+125
+100
+	2010	2012	2014	2016	2018	2020
+
+set X_train, y_train and X_test, y_test values
+
+def setvalues(dataset) time step): dataX, dataY :
+fop i in range(o,
+
+a : dataset[i:(i+time_step), 0]
+step, 0]) return 	np.array(dataY)
+time step : 100
+X train) y_train :  time step)
+X test, y_test : setvalues(test data, time_step)
+
+2153 (2153J 100) 2153 (2153, )
+print(len(x_test),X test. shape) shape)
+866 (866, 100)
+866 (866,)
+LowOpenClose	Volume 	Adj Close3221 0000003221 0000003221 0000003 221000e+03 3221 000000df, describe()
+High 3221 000000 coont
+     50 mean
+810203
+std
+       7 000000 min
+19016787
+25%
+29 602501
+55 570000
+75% 182.940002 max
+
+45 65818846 22104646 2568762 232075e			46 7613506 7946436 8703576 8589294 IOOOOOe+075 85637218 67857218 88535718 8821431.039164e+OO16 55695929 15500129 37999929 4000001 694102e+0827 18273754 31750154 99000254 9725003 525844e+0853 254868179 119995182 630005182 0099951 880999e+09181 259933	49 261857	40 798959	49 825841 2 590953e+0d	48 025237
+2010	2012	2014	2020	2022
+
+from sklearn . preprocessing import MinMaxscaler scaler = MinMaxscaler(feature dfl scaler . array(dfl) . reshape( -1, 1) )
+Days vs Close Price
+2010	2012	2016	2018	2020	2022
+df.head(5)
+	High	Low	Open	Close	Volume Adj Close
+Date
+
+
+2009-12-31 7.619643 7.520000 7.611786 7.526071 352410800.0	6.426000
+2010-01-04 7.660714 7.585000 7.622500 7.643214 493729600 0	6.526021
+2010-01-05 7.699643 7.616071 7.664286 7 656429 601904800.0	6.537303
+2010-01-06 7.686786 7 526786 7.656429 7.534643 552160000 0	6.433319
+2010-01-07 7.571429 7.466071 7 562500 7.520714 477131200.0	6 421425
+Model Creation
+from tensorflow, keras.models import Sequential from tensorflow, keras.layers import Dense from tensorflow, keras.layers import LSTM
+model : sequential ( )
+
+model.add(Dense(1))
+model. mean squared error'
+optimizer: adam l )
+model. summary( )
+Model: 'sequential "
+Istm (LSTM)(None,50)10400Istm 1 (LSTM)(None,50)20200Istm 2 (LSTM)(None, 50)20200dense (Dense)(None, 1)51Output shape	Param #
+
+Total params: 50,851
+Trainable params: 50,851
+Non-trainable params: 0
+
+CHAPTER 6
+CONCLUSION
+6.1 CONCLUSION
+   Thus, stock market price prediction is quite possible by using this application Though price prediction is a mathematical strategy this application would crack the strategy and make the prediction easier. This application needs improvement with the modules in near future
+
+CHAPTER 7
+FUTURE WORKS
+7.1 FUTURE WORKS
+  The model can be well trained with 1110t•e data for higher accuracy. Apart from LSTM, there are Inore effective algorithtns which can be trained heavily but in highend machines
+
+REFERENCE
+O https://en.wikipedia.org/w/index.php?title=Stock market&acfion• =edit&
+section=21
+O https://en.wikipedia.or2/w/index.php?title=Stock market&action=edit&
+section=2
+O https://en.wikipedia.org/w/index.php?title=Stock market&action=edit&
+section=4
+O ht s://en.wiki edia.oro/w/index. h '?title=Stock nmarket&action--edit&
+section=6 htt s://en.wiki edia.orø/w/index.h ?title=Stock market&action=edit&O 
+section=7
+O htt s://en.wiki edia.oro/w/index. h ?title=Stock market&action=edit&
+section=26
+O htt s://en.wiki edia.oro/w/index.
+€00tinn=R6
+
+
+
+
+
+
+
+
+11
+
+11
+
+
+
+19
+
+
+
+19
+
+19
+
+19
+
+
+
+
+
+
+

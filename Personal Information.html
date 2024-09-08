@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesSample.css">
+    <title>RNS Techers - Resume</title>
+    <style>
+        nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">About Me</a>
+        <a href="Personal Information.html">Personal Information</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="Internship.html">Internship</a>
+        <a href="Course Completed.html">Course Completed</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Certificates.html">Certificates</a>
+    </nav>
+<div class="container fade-in">
+    <hr><hr><h1>My Resume</h1><hr><hr>
+    <div class="section slide-up">
+        <center><h2>Personal Information</h2></center>
+        <br><br>
+        <div class="personal-info">
+             <center><img src="my profile.jpg" alt="My Name is Sanjay N" class="profile-img"></center><br><br>
+            <p><strong>Name:</strong> Sanjay N</p>
+            <p><strong>Email:</strong> 2005sanjaynrs@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9361599018</p>
+            <p><strong>Linked In Link:</strong> https://www.linkedin.com/in/sanjay--n. <strong>Click here</strong><a href=" https://www.linkedin.com/in/sanjay--n"><button><img src="Linked_inLogo.png" alt="Click Here" class="Linked in" width="15px" height="15px"></button></a></p>
+            <p><strong>GitHub:</strong> https://github.com/RNSsanjay .<strong>Click here:</strong><a href=" https://github.com/RNSsanjay"><button><img src="github-icon-png-3.png" alt="Click Here" class="github" width="15px" height="15px"></button></a></p>
+            <p><strong>Location:</strong> Ramanathapuram , Punjai Puliampatti , Eroad - 638 459.<strong>Click here:</strong><a href="https://maps.app.goo.gl/59HztfDhhU9DsVAs7"><button>My Location</button></a></p>
+        </div>
+       
+    </div>
+    <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function changeBorderColor() {
+            var container = document.querySelector('.container');
+            container.style.borderColor = getRandomColor();
+            setTimeout(changeBorderColor, 500); // Change color every 0.5 seconds
+        }
+
+        // Initial call to start changing border color
+        changeBorderColor();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks and Rank</title>
+    <style>
+        nav {
+            background-color: #0f09c4;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 1s forwards;
+            border-radius: 10px;
+        }
+       
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+nav a {
+            color: rgb(247, 245, 245);
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+        }
+        nav a:hover {
+            background-color: #a690f5;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            animation: fadeIn 1s ease;
+            width: 80%;
+            max-width: 800px;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 36px;
+            animation: slideIn 1s ease;
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            animation: fadeIn 1s ease;
+            margin-top: 30px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            color: #555;
+            font-size: 18px;
+            animation: fadeIn 1s ease;
+        }
+        th {
+            background-color: #003366;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e3e3e3;
+            transition: background-color 0.3s ease;
+        }
+        ul {
+    list-style: none;
+}
+ul li {
+    display: inline-flexbox;
+    position: relative;
+}
+ul li a {
+   padding: 0px 10px; 
+   text-decoration: none;
+   display: block;
+  
+}
+ul li ul.dropdown li {
+    display: block;
+    font-size: small;
+}
+ul li ul.dropdown {
+    width: 100%;
+    background: #005b96;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+ul li:hover ul.dropdown {
+ display: block;
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+    overflow-x: hidden;
+}
+h1 {
+    color: #333;
+    margin: 20px 0 40px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+}
+    </style>
+</head>
+<body>
+   <nav>
+        <a href="index.html">About Me</a>
+        <a href="Personal Information.html">Personal Information</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="Internship.html">Internship</a>
+        <a href="Course Completed.html">Course Completed</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Certificates.html">Certificates</a>
+    </nav>
+    <div class="container">
+        <h1>Marks and Batch</h1>
+        <table>
+            <tr>
+                <th>Exam</th>
+                <th>Marks</th>
+                <th>Batch</th>
+            </tr>
+           <tr>
+            <td><a href="10thMarks.html">10th Standard</a></td> 
+                <td>298 / 500</td>
+                <td>2019 - 2020</td></a>
+            </tr>
+            <tr>
+                <td><a href="12thMarks.html">12th Standard</a></td>  
+                <td>480 / 600</td>               
+                <td>2021 - 2022</td>
+            </tr>
+            <tr>
+                <td><a href="CollegeMarks.html">College Total SGPA</a></td> 
+                <td>9.5 / 10</td>
+                <td>2022 - 2026</td>
+            </tr>
+           
+           
+        </table>
+        <p style="text-align: center; margin-top: 20px;">Click on each exam to see detailed results.</p>
+    </div>
+</body>
+</html>
