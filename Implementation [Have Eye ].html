@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project UI Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Fonts */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;    
+     animation: fadeIn 1s ease;
+     background-image: url(https://img.freepik.com/premium-vector/blue-minimal-background-premium-vector_233302-35.jpg?w=900);
+            line-height: 1.6;
+        }
+        
+         /* Navigation */
+     nav {
+            background-color: #0f09c4;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            animation: fadeInDown 1s forwards;
+        }
+        nav a {
+            color: rgb(247, 245, 245);
+            text-align: center;
+            padding: 14px 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+        }
+        nav a:hover {
+            background-color: #a690f5;
+        }
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        /* Image Showcase */
+        .image-showcase {
+            margin-top: 40px;
+        }
+        
+        .project-card {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+        }
+        
+        .project-image {
+            width: 20%;
+            height: 500px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        
+        .project-description {
+            padding: 20px;
+            color: #333;
+            font-size: 16px;
+            text-align: left;
+            background-color: #f9f9f9;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            text-align: center;
+        }
+
+        /* Custom Animation */
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Download Button */
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #0f09c4;
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+            }
+            50% {
+                transform: scale(1.1);
+                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            }
+        }
+    </style>
+</head>
+<body>
+     <nav>
+        <a href="index.html">About Me</a>
+        <a href="Personal Information.html">Personal Information</a>
+        <a href="education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="Internship.html">Internship</a>
+        <a href="Course Completed.html">Course Completed</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Certificates.html">Certificates</a>
+    </nav>
+    <div class="container">
+        <h1>🎨 Implementation</h1>
+        <!-- Image Showcase -->
+        <div class="image-showcase">
+            <div class="project-card">
+                <img src="Have Eye (1).jpg" alt="Home Page of Have Eye" class="project-image">
+                <div class="project-description">When we open the Application the above page opens . It is  the Home Page with 2 Options.They are, <br> 1.Open Camera, <br> 2.Open Gallery.</div>
+            </div>
+
+            <div class="project-card">
+                <img src="Have Eye(2).jpg" alt="Open Camera From the Home Page" class="project-image">
+                <div class="project-description">When the Open Camera is Clicked the Above Page Open . In this Page the Camera is accessed to identfy the Object . And the Object Name is Givan as Output in the Speakers of the Corressponding Device.</div>
+            </div>
+
+            <div class="project-card">
+                <img src="Have Eye(3).jpg" alt="Open Gallery from Home Page" class="project-image">
+                <div class="project-description">When the Open Gallery is Clicked the Above Page is Opened . In this page the Device Storage Photos are Accessed to Identfy them. </div>
+            </div>
+
+            <div class="project-card">
+                <img src="Have Eye(4).jpg" alt="Project Image" class="project-image">
+                <div class="project-description"> One of the Photo from the Gallery is Clicked and the Objects in that image is Identfied and the Name of that Particular Object is Given as Output in the Speakers.</div>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <a href="Have Eye.apk" class="download-btn">Download App</a> 
+        <br><br><br><center><a href="project(1).html"><button style="color: white;background-color: #003366;font-family: cursive;width: 120px;height: 60px;border-radius: 20px;">Back</button></a></center> <br><br><hr><hr>
+    </div>
+</body>
+</html>

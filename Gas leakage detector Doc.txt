@@ -1,0 +1,166 @@
+
+	\ PTER	TITLE	PAGE
+NO
+	LIST OF FIGURES	3
+	XBSTRACT	4
+	DESIGN THINKING	5
+1 EMPATHY	7
+1.1 PEOPLES	9
+2 DEFINE	10
+2.1 GAS LEAKAGE DETECTOR	11
+	2.2HARDWARE REQUIRED	12
+3 IDEATE	13
+3.1 DESIGN AND DEVELOPMENT	14
+3.2 FLOWCHART	15
+3.3 BLOCK DIAGRAM	16
+3.4 CIRCUIT Dl sc,ll17
+PROTOFI PE
+4
+	4.1  MODEL	1 9
+
+ABS'I'RAC"I'
+"I lie explosion (Ille to gas leakage bcconjc a pjol)lclji out' daily NOV/ the world IS evolving With technology, so Il fo 'ccJijjoJ0i%' if inj cvcrï,' caw, LPG gas to resolve the accident occurred wc can it tccJjJjoJogy,  bawd on a microcontroller, which uses gay,  well (iSM, display and It d'.%igncd for LPG Gas Leakage Monitoring and AICH System ti%ing Incu "J Jji% circuit contains node njcu scmor, microcontroller, buzzer, display and ('SM. Ijc WII! (Ictcct tJjc gag, Icak.agc and transmit thc information to the m lcrocontrollcr, On the  information, thc microcontroller makes a decision and then displays a warning rncssagc on thc display and thc message will bc scent to the user via GSM. The Usc.s ol' the microcontroller provide a suitable platform for irnpJcmcnting an embedded control system and it is possible to modify it to rncct our flilurc rcquircmcnt% casily and quickly,
+
+DESIGN THINKING
+Design thinking is an approach used for practical and creative probletn-solvinu. It is based heavily on the methods and processes that designers use (hence the name), but it has actually evolved from a range of different fields - including architecture, engineering and business. Design thinking can also be applied to any field; it doesn't necessarily have to be designspecific.
+It's important to note that design thinking is different from user-centred design. Learn more about this other approach to design here: Design Thinking vs. User-Centred Design.
+Design thinking is extremely user-centric. It focuses on humans first and foremost, seeking to understand people's needs and come up with effective solutions to meet those needs. It is what we call a solution-based approach to problem-solving.
+The Four Principles of Design Thinking
+ The human rule: No matter what the context, all design activity is social in nature, and any social innovation will bring us back to the "human-centric point of view".
+
+Experimenting at the limits of your knowledge and ability is crucial in being able to see things differently.
+ The redesign rule: All design is redesign. While technology and social circumstances may change and evolve, basic human needs remain unchanged. We essentially only redesign the means of fulfilling these needs or reaching desired outcomes.
+The tangibility rule: Making ideas tangible in the form of prototypes enables designers to communicate them more effectively.
+
+ Design thinking is a process solving problelns by prioritizing the consumer's needs above all else. It relies on observing, how people interact with their environments, and employs an iterati\ e, hands-on approach to creating innovative solutions. It is a human-cantered approach to innovation.
+FIVE STAGES OF DESIGN THINKING:
+ï EMPATHY
+ï DEFINE
+ï IDEATE  PROTOTYE
+0 TEST
+
+Design Thinking
+	Empathize	Ideate
+
+	Cll 	1
+EMPATHY
+Etnpathize is the Stage in the design think Ing ocess. 'l o etnpatl)l/e IS to vescatcl). So, you should constantly IVIhind yout self to question evetythtng you obsetve Ilistead of judging. You should also listen to othets open-nundedly 141thet' than focus on points that con linn your btawïs, Because ouv biases Will natunnlly creep into how we vtew the world and the situations wc consider, as designets or design thinkets-we nutst catch and overcotne these before they distort ouv txïseavch. You nuvst becotne fully objective before you can start to see through your usersï eyes and inteqvet their viewpoints optinvally. They are the experts. You must understand the usetS ditnenstons of use (e.g., tasks) and their feelings (e.g., motivations) before you can work towards delighting thenl through your design.
+As a design thinker, the probletns you are trying to solve are rarely your own-they are those of a paniculat- group of people: in order to design for thetn, you Illust gain empathy for who they are and what is itnportant to thenl. Observing what people do and how they interact with their environtnent gives you clues about what they think and feel. It also helps you learn about what they need. By watching people, you can capture physical manifestations of their experiences - what they do and speak. This will allow you to infer the intangible meaning of those experiences in order to uncover insights. These insights give you direction to create innovative solutions. The best solutions collie out of the best insights into human behaviour. But leaming to recognize those insights is harder than you might think. Why? Because our minds automatically filter out a lot of infortnation without our even realizing it.
+We need to leatm to see things "with a fresh set of eyes," and empathizing is what gives us those new eyes. Engaging with people directly reveals a tremendous amount about the way they think and the values they hold. Sometimes these thoughts and values are not obvious to the people who hold them, and a good conversation can surprise both the designer and the subject by the unanticipated insights that are revealed. The stories that people tell and the things that people say they do even if they are different from what they actually do are strong indicators of their deeply held beliefs about the way the world is. Good designs are built on a solid understanding of these beliefs and values.
+Obsewe. View users and their behaviour in the context of their lives, As much as possible do
+	Observations in relevant contexts in addition to interviews. Some of the 	powerful
+
+
+realizations come from noticmg a disconnect between what someone says and what he does. Others conie from a work-around sonuïone has created which nvay be vet-y surprising to you as the designer, but she may not even think to mention in conversation. - Engage.
+Sometimes we call this technique 'interviewing' but it should really feel Inore like a conversation. Prepare some questions you'd like to ask, but expect to let the conversation deviate from them. Keep the conversation only loosely bounded. Elicit stories from the people you talk to, and always ask "Why?" to uncover deeper meaning. Engagement can come through both short 'intercept' encounters and longer scheduled conversations. Watch and listen. Certainly, you can, and should, combine observation and engagement. Ask sotneone to show you how they complete a task.
+ Have them physically go through the steps, and talk you through why they are doing what they do. Ask them to vocalize what's going through their mind as they perform a task or interact with an object. Have a conversation in the context of someone's home or workplace so many stories are embodied in artifacts. Use the environment to prompt deeper questions.
+1.1 PEOPLES
+ LPG Gas leaks have been increased from 0.72% of all kitchen accidents to 10.74% of all the kitchen accidents The small LPG cylinder of weight 5kg in which the burner is located immediately over the cylinder without using a rubber tube is seen to be safer than the one which uses a rubber pipe as this subway has the hazards of getting cracked which in turn can make way to leakage. A computer program to run online to detect the leakage locations has been originated and it functions as the automatic supervisor of the pipelines in remote areas Simple Gas leak detector is a simple device which is used to detect the leakage of gas and if the gas leak occurs, an equivalent message is conveyed by the means of an LCD screen and a buzzer and with the help of the GSM module it is capable to broadcast messages to the stakeholders about the LPG leakage.
+Chapter 2
+DEFINE
+ The Define mode of the design process is all about bringing clarity and focus to the design space. It is your chance, and responsibility, as a design thinker to define the challenge you are taking on, based on what you have learned about your user and about the context. After becoming an instant-expert on the subject and gaining invaluable empathy for the person you are designing for, this stage is about making sense of the widespread information you have gathered. The goal of the Define mode is to craft a meaningful and actionable problem statement- this is what we call a point-of-view. This should be a guiding statement that focuses on insights and needs of a particular user, or composite character. Insights don't often just jump in your lap; rather they cmcrgc from a process of synthesizing information to discover connections and patterns. In a word, the Define mode is sensemaking
+ The Define mode is critical to the design process because it results in your point-of-view (POV): the explicit expression of the problem you are striving to address. More importantly, your POV defines the right challenge to address, based on your new understanding of people and the problem space. It may seem counterintuitive but crafting a more narrowly focused problem statement tends to yield both greater quantity and higher quality solutions when you are generating ideas. The Define mode is also an endeavour to synthesize your scattered findings into powerful insights. It is this synthesis of your empathy work that gives you the advantage that no one else has: discoveries that you can leverage to tackle the design challenge; that is, INSIGHT
+ Consider what stood out to you when talking and observing people. NVhat patterns emerge when you look at the set? If you noticed something interesting ask yourself (and your team) why that might be. In asking why someone had a celtain behaviour or feeling you are making connections from that person to the larger context. Develop an understanding of the type of person you are designing for - your USER. Synthesize and select a limited set of NEEDS that you think are important to fulfil; you may in fact express a just one single salient need to address. Work to express INSIGHTS you developed through the synthesis of information you have gathered through empathy and research work. Then articulate a point-of-view by
+                                      insight -- as an actionable problelll statejnent combining these three eletnents -- tiSetï, need, that will drﬂe the test of yout- design wold(.
+2.1. GAS LEAKAGE DETECTOR
+ Ntieroeontroller Based LPG Gas Leakage Detector Using GSM Module, in this system where used gas sensor, GSM module, microcontroller, if the gas concentration is increases the gas sensors will sense the leakage of the gas and then send to the microcontroller. Then the GSM module is connected to the microcontroller which will gives the command to stop the main supply. The system is highly reliable, tamper-proof and secure. In the long run the maintenance cost is efficient. It is highly accurate.
+  Liquefied Petroleum Gas commonly known as LPG consists of a mixture of Commercial Propane and Commercial Butane having saturated as well as unsaturated hydrocarbons. It is an odourless gas due to which Ethyl Herceptin is added as powerful odorant so that leakage can easily be detected. LPG is commonly used in homes for heating and cooking. This energy source is prirnarily composed of propane and butane which are highly flammable chemical compounds. LPG was first produced in 1910 by Walter Snelling (Didpayel, 2015)and is classified as a hazardous material because of its flammable properties and explosive potential when stored under pressure. Before the development of electronic household gas detectors in the 1980s and 90s, gas presence was detected with a chemically infused paper that changed its color when exposed to the gas (Didpayel, 2015). Since then, many technologies and devices have been developed to detect, monitor, and alert the leakage of a wide array of gases. Hence the requirement of an efficient system to detect leakage of LPG is inevitable, which may be used for domestic and commercial purpose.
+A system that provided security issues against thieves, leakage and fire accidents. In those cases, this system sends SMS to the emergency number provided to it. In the proposed systern we have designed ' 'LPG gas monitoring and automatic cylinder booking with alert systenf'
+
+These report focus on detection of economic fuels like petroleum, liquid petroleunn gas, in the
+  systetn we have destgned "l PG s:as tnollltovtng and autotuatte cylinder booking with liquid alett stetn". These focus on detection of econonue fuels like petroleutn, pettïleutu gas, and alert svstetu l'hese focus on detection of econonue fuels like petmleutu, liquid pettQleutu gas ,aleohol etc. I iquefied petroleutll gas (l.P(i) is a highly flanuuable chetnieal. The of  gas (I-PG) is used as Cuel for butïtung, at hotne and in the industtys LPG is used as a dotuestte fuel, industrial, heating and so on. A heater and gas sensitive are sotue of the internal eotuponents oc the sensor used to avoid failure leaditux to a false alartu indication. The alartll 2ets triegered when a certain concentration of is exceeded bv steatn. This device is used to indicate early warning of a problem to ensure public safety. LPG and gas sensors ave used in the field of safety, health and tuaterials. This enlbedded systetn is used to detect hazardous eas and to alert uses by sending an SMS.
+2.2. ARE REQUIRED
+ï Node MCU
+ï 12V DC Power Supply
+ï Buzzer
+ï LPG Gas Leaka*e Sensor
+ï Connecting NVires
+ï Project Base
+
+Cll  3
+
+ the nuule of the (lestpti l)ioeess in 	you 	on iden
+
+Mentally It represents a ocess 01 going Wide' ' 	ofIdcafton  the fuel and also the soutce tuatetial for billldtng ptototypes and getting jnnovattvc  into the hands of yout use'S. You ideate ovdev to transition [rot)) identifying  solutions 	your users. Ideation is your chance to cotnbtne the understanding you have of the 	space and people you ate designtng for with your imagtnatton to generate solution concepts.
+radiculatïly calAy in a design project, ideation is about pushing for a widest possible range of ideas xvhich you can select, not silnply finding a single, best solution. The deternunation of best solution will be discovered later, through user testing and feedback. Various of ideation are leveraged to: - Step beyond obvious solutions and thus increase the innovation potential of your solution set - Ilarncss the collective perspectives and strengths of your teams Uncover unexpected areas of exploration - Create fluency (volume) and flexibility (variety) in your innovation options - Get obvious solutions out of your heads, and drive your team beyond them .You ideate by conibining your conscious and unconscious mind, and rational thoughts with imagination. For exannple, in a brainstormi you leverage the synergy of the group to reach new ideas by building on others' ideas.
+Adding constraints, surrounding yourself with inspiring related materials, and embracing misunderstanding all allow you to reach funher than you could by simply thinking about a problem. Another ideation technique is building - that is, prototyping itself can be an ideation technique. In physically nvaking something you come to points where decisions need to be made; this encourages new ideas to come fonvard.
+There are other ideation techniques such as bodystorming, mind mapping, and sketching. But one theme thioughout all of them is defenïing judgment  that is, separating the generation of ideas 110m the evaluation of ideas. In doing so, you give your imagination and creativity a voice, while placating your rational side in knowing that your will get to the examination of merits later.
+
+3. 1 DESIGN AND
+The ntain olyeetive ol' out' Is to enst11V the t PG gas leakage and provi(lc a Signal at that as well as through SMS and signal to the speclfied nuttibcr. ()ncc wc are  with the vatït0US Cunetions of architecture and (il)S system, It is time to design the
+hardware and develop our concept. The system we want to make is consisting of node mcu , (nodule , buzzer , LCD. The node Incu will control the signal as well as process thc infornmtion received froln the GSM.
+3.2 FLOWCHART
+Flowchart in a logical sequence, or stillcture is a graphical representation of a production process. The purpose of a flow chart of the process of working with a project or a common language or reference point is provided.
+Initially, the microcontroller send signal to the GSM module and if the GSM module is connected properly with the microcontroller it sends an acknowledgement signal back to the microcontroller. Then if there is any gas leakage in the MO sphere it is detected by the gas sensor unit using MQ-6sensor. After the sensor unit detects the gas leakage, a signal is sent to the ADC unit of the microcontroller which then sends activation signal to other external devices connected to it such as buzzer, GSM module and LCD display.
+3 BLOCK DIAGRAM
+
+
+3 CIRCUIT DIAGRAM
+
+
+ LPG gas sensor module's DO pin is directly connected to pin 12 of node mcu and Vcc and GND are connected to Vcc and GND of node mcu. LPG gas sensor module consist a MQ3 sensor which detects LPG gas. A comparator circuit is used for convening Analog output of MQ3 in digital. A 16x2 LCD is connected with node mcu in 4-bit mode. Control pin RS, RW and directly connected to node mcu pin 2, GND and 3. And data pin DO-D7 are connected to 4, 5, 6, 7 of node mcu. A buzzer is connected with node mcu pin number 8 through a NPN BC547 transistor having a 4.7 kilo ohm resistor at its base.
+
+	the 	01	1 1 ('acts ilitcti(led to ati%Vver 	that
+	In the eat ly stages of a protect 	question may bc broad
+TIIC closet to I Inal solut ton as "do en10Y' cook Ill!! a cotnpctittve quick and tnannev?"cheap to Iti Cady stages, youand
+ can elicit uselul 	and colleagues. In and question 	get a little 	t.fined. 	exatnple, you 	a later for the cooking 	that 	to find out:
+or visual conunands". A prototype can be anything that a user can interact with
+  It a wall of post-it notes, a gadget you put together, a role-playing activity, or even a st00 boavd. Ideally you bias toward sotnething a user can experience.
+    sonwone through a scenario with a stowboard is good, but having them role-play through a physical environnwnt that you have created will likely bring out more emottons and responses fronl that person. To ideate and problem-solve. Build to think. To communicate. If
+
+conversation. Your interactions with users are often richer when centred around a conversation piece. A prototype is an opportunity to have another, directed conversation with a user. To fail quickly and cheaply. Committing as few resources as possible to each idea means less time and Ilioney invested up front. To test possibilities. Staying low-res allows you to pursue many different ideas without cotnmitting to a direction too early on. To manage the solution-building process. IdentitYing a variable also encourages you to break a large problem down into smaller, testable chunks.
+Even if you aren't sure what you're doing, the act of picking up some materials (post-its, tape, and found objects are a good way to start!) will be enough to get you going. Don't spend too long on one prototype. Let go before you find yourself getting too emotionally attached to any one prototype. ID a vafiable. Identify what's being tested with each prototype.
+A prototype should answer a particular question when tested. That said, don't be blind to the Other tangential understanding you can gain as someone responds to a prototype. Build with the user in mind. What do you hope to test with the user? What sorts of behaviour do you expect? Answering these questions will help focus your prototyping and help you receive meaningful feedback in the testing phase.
+ORKISG MODEL
+
+
+from the microcontroller will go to the display and show rnzsaz:. signal from the buzzer will signal the first sep is
+
+Lastly, through CJS-V, there will be z signal message that the has  to a specif:c number or multiple.
+       to its stakeholders about the of the LPG cas- as-eats ofthis include the GSM module and a tripper circuit which increases th: efficiezcy cd provides more safety to the users. Tnis detector is implemented successfull-.- Ed and also a low cost product. Another advantaz: ofthis d±'.ice is that even ±ozgh cr.: is there in the house and then gas leaks occurs, GSNI module is to send nessages to the stakeholders regardinz the gas leak and thus it lowers the fzci±nts. GSM module in this device ensures better safer,' regardinz the es leakskr-±il: gas sensing robot can be constructed to sense the leak-ae of gas through pipelines can rnove on a track which is situated along the length ofpipeline.
+
+
+
+?0?0?0?=000??=0comm??me ?000=?000
+??0 02?0/?0=0H0
+SANJAY.NSNSCT
+Has-25S?u??ysatisfiedtherequi?ements??...
+En?erpriseDesignThinkingPrac???ioner
+
+
+2
+
+2
+
+2
+
+8
+
+
+
+
+
+8
+
+8
+
+8
+
+8
+
+8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
